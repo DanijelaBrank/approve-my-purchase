@@ -3,7 +3,7 @@ package handlers;
 /**
  * //TODO - If needed, validate logic and if possible optimize code.
  */
-public class Director extends Manager {
+public class Director extends Approver {
 
     public Director() {
     	this.consumablesLimit = 500;

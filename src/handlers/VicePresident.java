@@ -3,7 +3,7 @@ package handlers;
 /**
  * //TODO - Implement approval implementation for VicePresident level
  */
-public class VicePresident extends Manager {
+public class VicePresident extends Approver {
 
 	public VicePresident() {
 		this.consumablesLimit = 1000;
